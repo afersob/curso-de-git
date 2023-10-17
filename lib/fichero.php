@@ -1,8 +1,7 @@
 <?php 
 	//El comentrario es de prueba
-	require('HolaMundo.php');
-
-		
-	$nombre =  isset($argv[1]) ? $argv[1]: "mundo";
-	@print new HolaMundo($nombre);
+	require('HolaMUndo.php');
+	print "Introduce tu nombre ";
+	$nombre = trim(fgrts(STDIN));
+	print "HOla $nombre";
 ?>
